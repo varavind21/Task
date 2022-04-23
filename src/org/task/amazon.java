@@ -16,6 +16,7 @@ public class amazon {
 			txtname.sendKeys("iphone");
 			WebElement btnclick = driver.findElement(By.xpath("//input[@value=\'Go\']"));
 			btnclick.click();
+			System.out.println("arvind");
 	
 	
 	}
